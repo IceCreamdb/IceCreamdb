@@ -1,0 +1,36 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : arcticdev
+Source Server Version : 50509
+Source Host           : localhost:3306
+Source Database       : arctic_world
+
+Target Server Type    : MYSQL
+Target Server Version : 50509
+File Encoding         : 65001
+
+Date: 2012-03-28 21:25:13
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for `trainerspelloverride`
+-- ----------------------------
+DROP TABLE IF EXISTS `trainerspelloverride`;
+CREATE TABLE `trainerspelloverride` (
+  `spellid` int(10) unsigned NOT NULL DEFAULT '0',
+  `cost` int(10) unsigned NOT NULL DEFAULT '0',
+  `requiredspell` int(10) unsigned NOT NULL DEFAULT '0',
+  `deletespell` int(10) unsigned NOT NULL DEFAULT '0',
+  `requiredskill` int(10) unsigned NOT NULL DEFAULT '0',
+  `requiredskillvalue` int(10) unsigned NOT NULL DEFAULT '0',
+  `reqlevel` int(10) unsigned NOT NULL DEFAULT '0',
+  `requiredclass` int(10) unsigned NOT NULL DEFAULT '0',
+  UNIQUE KEY `spellid` (`spellid`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Trainer System';
+
+-- ----------------------------
+-- Records of trainerspelloverride
+-- ----------------------------
