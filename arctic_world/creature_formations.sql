@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:20:35
+Date: 2012-03-29 18:34:58
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -20,12 +20,11 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `creature_formations`;
 CREATE TABLE `creature_formations` (
-  `spawn_id` int(30) unsigned NOT NULL DEFAULT '0',
-  `target_spawn_id` int(30) unsigned NOT NULL DEFAULT '0',
+  `spawn_id` int(10) unsigned NOT NULL DEFAULT '0',
+  `target_spawn_id` int(10) unsigned NOT NULL DEFAULT '0',
   `follow_angle` float NOT NULL DEFAULT '0',
   `follow_dist` float NOT NULL DEFAULT '0',
-  PRIMARY KEY (`spawn_id`),
-  UNIQUE KEY `a` (`spawn_id`)
+  PRIMARY KEY (`spawn_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Creature System';
 
 -- ----------------------------

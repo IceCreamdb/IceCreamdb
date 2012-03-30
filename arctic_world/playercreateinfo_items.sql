@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:23:28
+Date: 2012-03-29 17:44:41
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -20,10 +20,11 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `playercreateinfo_items`;
 CREATE TABLE `playercreateinfo_items` (
-  `indexid` int(4) NOT NULL,
-  `protoid` int(4) NOT NULL,
-  `slotid` int(10) NOT NULL,
-  `amount` int(3) NOT NULL
+  `indexid` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `protoid` mediumint(10) unsigned NOT NULL DEFAULT '0',
+  `slotid` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `amount` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`indexid`,`protoid`,`slotid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Player System';
 
 -- ----------------------------

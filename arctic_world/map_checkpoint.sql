@@ -19,7 +19,7 @@ SET FOREIGN_KEY_CHECKS=0;
 -- Table structure for `map_checkpoint`
 -- ----------------------------
 DROP TABLE IF EXISTS `map_checkpoint`;
-CREATE TABLE `map_checkpoint` (
+CREATE TABLE IF NOT EXISTS `map_checkpoint` (
   `entry` int(30) NOT NULL,
   `prereq_checkpoint_id` int(30) NOT NULL,
   `creature_id` int(30) NOT NULL,

@@ -17,7 +17,7 @@ SET /p world_db= World Database:
 
 SET dumppath=.\dump\
 SET mysqlpath=.\mysql\
-SET devsql=.\development\arctic_world
+SET devsql=.\arctic_world
 
 :Begin
 CLS

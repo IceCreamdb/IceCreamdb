@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:23:33
+Date: 2012-03-29 17:41:37
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -21,7 +21,8 @@ SET FOREIGN_KEY_CHECKS=0;
 DROP TABLE IF EXISTS `playercreateinfo_spells`;
 CREATE TABLE `playercreateinfo_spells` (
   `indexid` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `spellid` smallint(5) unsigned NOT NULL DEFAULT '0'
+  `spellid` smallint(5) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`indexid`,`spellid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Player System';
 
 -- ----------------------------

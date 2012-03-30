@@ -19,7 +19,7 @@ SET FOREIGN_KEY_CHECKS=0;
 -- Table structure for `item_randomprop_groups`
 -- ----------------------------
 DROP TABLE IF EXISTS `item_randomprop_groups`;
-CREATE TABLE `item_randomprop_groups` (
+CREATE TABLE IF NOT EXISTS `item_randomprop_groups` (
   `entry_id` int(30) NOT NULL,
   `randomprops_entryid` int(30) NOT NULL,
   `chance` float NOT NULL,

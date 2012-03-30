@@ -19,9 +19,9 @@ SET FOREIGN_KEY_CHECKS=0;
 -- Table structure for `wordfilter_character_names`
 -- ----------------------------
 DROP TABLE IF EXISTS `wordfilter_character_names`;
-CREATE TABLE `wordfilter_character_names` (
-  `regex_match` varchar(255) NOT NULL,
-  `regex_ignore_if_matched` varchar(255) DEFAULT ''
+CREATE TABLE IF NOT EXISTS `wordfilter_character_names` (
+  `regex_match` varchar(500) NOT NULL,
+  `regex_ignore_if_matched` varchar(500) NOT NULL DEFAULT ''
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- ----------------------------

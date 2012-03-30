@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:24:42
+Date: 2012-03-29 17:31:00
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -27,5 +27,8 @@ CREATE TABLE `spell_disable` (
 -- ----------------------------
 -- Records of spell_disable
 -- ----------------------------
+INSERT INTO `spell_disable` VALUES ('45614', '0');
+INSERT INTO `spell_disable` VALUES ('47166', '0');
+INSERT INTO `spell_disable` VALUES ('64904', '0');
 INSERT INTO `spell_disable` VALUES ('33836', '0');
 INSERT INTO `spell_disable` VALUES ('32844', '0');

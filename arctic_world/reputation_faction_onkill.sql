@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:24:29
+Date: 2012-03-29 17:33:36
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -27,9 +27,11 @@ CREATE TABLE `reputation_faction_onkill` (
   `change_factionid_horde` int(30) NOT NULL,
   `change_deltamin_horde` int(30) NOT NULL,
   `change_deltamax_horde` int(30) NOT NULL,
-  KEY `factindex` (`faction_id`)
+  PRIMARY KEY (`faction_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Creature System';
 
 -- ----------------------------
 -- Records of reputation_faction_onkill
 -- ----------------------------
+INSERT INTO `reputation_faction_onkill` VALUES ('92', '132', '-100', '42000', '132', '-100', '42000');
+INSERT INTO `reputation_faction_onkill` VALUES ('93', '133', '-100', '42000', '133', '-100', '42000');

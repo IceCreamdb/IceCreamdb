@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:20:28
+Date: 2012-03-29 18:36:34
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,8 +25,7 @@ CREATE TABLE `clientaddons` (
   `crc` bigint(20) unsigned DEFAULT NULL,
   `banned` int(10) unsigned NOT NULL DEFAULT '0',
   `showinlist` int(10) unsigned NOT NULL DEFAULT '0',
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `a` (`id`)
+  PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=153 DEFAULT CHARSET=latin1 COMMENT='Client Addons';
 
 -- ----------------------------

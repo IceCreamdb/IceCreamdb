@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:23:00
+Date: 2012-03-29 17:51:33
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -22,8 +22,8 @@ DROP TABLE IF EXISTS `npc_text`;
 CREATE TABLE `npc_text` (
   `entry` int(10) unsigned NOT NULL DEFAULT '0',
   `prob0` float NOT NULL DEFAULT '0',
-  `text0_0` longtext NOT NULL,
-  `text0_1` longtext NOT NULL,
+  `text0_0` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `text0_1` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `lang0` int(10) unsigned NOT NULL DEFAULT '0',
   `em0_0` int(10) unsigned NOT NULL DEFAULT '0',
   `em0_1` int(10) unsigned NOT NULL DEFAULT '0',
@@ -32,8 +32,8 @@ CREATE TABLE `npc_text` (
   `em0_4` int(10) unsigned NOT NULL DEFAULT '0',
   `em0_5` int(10) unsigned NOT NULL DEFAULT '0',
   `prob1` float NOT NULL DEFAULT '0',
-  `text1_0` longtext NOT NULL,
-  `text1_1` longtext NOT NULL,
+  `text1_0` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `text1_1` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `lang1` int(10) unsigned NOT NULL DEFAULT '0',
   `em1_0` int(10) unsigned NOT NULL DEFAULT '0',
   `em1_1` int(10) unsigned NOT NULL DEFAULT '0',
@@ -42,8 +42,8 @@ CREATE TABLE `npc_text` (
   `em1_4` int(10) unsigned NOT NULL DEFAULT '0',
   `em1_5` int(10) unsigned NOT NULL DEFAULT '0',
   `prob2` float NOT NULL DEFAULT '0',
-  `text2_0` longtext NOT NULL,
-  `text2_1` longtext NOT NULL,
+  `text2_0` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `text2_1` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `lang2` int(10) unsigned NOT NULL DEFAULT '0',
   `em2_0` int(10) unsigned NOT NULL DEFAULT '0',
   `em2_1` int(10) unsigned NOT NULL DEFAULT '0',
@@ -52,8 +52,8 @@ CREATE TABLE `npc_text` (
   `em2_4` int(10) unsigned NOT NULL DEFAULT '0',
   `em2_5` int(10) unsigned NOT NULL DEFAULT '0',
   `prob3` float NOT NULL DEFAULT '0',
-  `text3_0` longtext NOT NULL,
-  `text3_1` longtext NOT NULL,
+  `text3_0` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `text3_1` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `lang3` int(10) unsigned NOT NULL DEFAULT '0',
   `em3_0` int(10) unsigned NOT NULL DEFAULT '0',
   `em3_1` int(10) unsigned NOT NULL DEFAULT '0',
@@ -62,8 +62,8 @@ CREATE TABLE `npc_text` (
   `em3_4` int(10) unsigned NOT NULL DEFAULT '0',
   `em3_5` int(10) unsigned NOT NULL DEFAULT '0',
   `prob4` float NOT NULL DEFAULT '0',
-  `text4_0` longtext NOT NULL,
-  `text4_1` longtext NOT NULL,
+  `text4_0` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `text4_1` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `lang4` int(10) unsigned NOT NULL DEFAULT '0',
   `em4_0` int(10) unsigned NOT NULL DEFAULT '0',
   `em4_1` int(10) unsigned NOT NULL DEFAULT '0',
@@ -72,8 +72,8 @@ CREATE TABLE `npc_text` (
   `em4_4` int(10) unsigned NOT NULL DEFAULT '0',
   `em4_5` int(10) unsigned NOT NULL DEFAULT '0',
   `prob5` float NOT NULL DEFAULT '0',
-  `text5_0` longtext NOT NULL,
-  `text5_1` longtext NOT NULL,
+  `text5_0` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `text5_1` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `lang5` int(10) unsigned NOT NULL DEFAULT '0',
   `em5_0` int(10) unsigned NOT NULL DEFAULT '0',
   `em5_1` int(10) unsigned NOT NULL DEFAULT '0',
@@ -82,8 +82,8 @@ CREATE TABLE `npc_text` (
   `em5_4` int(10) unsigned NOT NULL DEFAULT '0',
   `em5_5` int(10) unsigned NOT NULL DEFAULT '0',
   `prob6` float NOT NULL DEFAULT '0',
-  `text6_0` longtext NOT NULL,
-  `text6_1` longtext NOT NULL,
+  `text6_0` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `text6_1` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `lang6` int(10) unsigned NOT NULL DEFAULT '0',
   `em6_0` int(10) unsigned NOT NULL DEFAULT '0',
   `em6_1` int(10) unsigned NOT NULL DEFAULT '0',
@@ -92,8 +92,8 @@ CREATE TABLE `npc_text` (
   `em6_4` int(10) unsigned NOT NULL DEFAULT '0',
   `em6_5` int(10) unsigned NOT NULL DEFAULT '0',
   `prob7` float NOT NULL DEFAULT '0',
-  `text7_0` longtext NOT NULL,
-  `text7_1` longtext NOT NULL,
+  `text7_0` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `text7_1` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `lang7` int(10) unsigned NOT NULL DEFAULT '0',
   `em7_0` int(10) unsigned NOT NULL DEFAULT '0',
   `em7_1` int(10) unsigned NOT NULL DEFAULT '0',
@@ -4662,7 +4662,7 @@ INSERT INTO `npc_text` VALUES ('13469', '1', 'The Halls of Stone, a level 77-79 
 INSERT INTO `npc_text` VALUES ('13470', '1', '', 'What are you doing all the way back here? You need to get back to Stratholme immediately! Shall I teleport you to Stratholme?', '0', '0', '1', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0');
 INSERT INTO `npc_text` VALUES ('13471', '1', '', 'Go find those hidden plagued grain crates and use your Arcane Disruptor on them! Arthas will then have the evidence he needs to begin the culling of Stratholme.', '0', '0', '1', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0');
 INSERT INTO `npc_text` VALUES ('13472', '1', '', 'What are you doing here? Arthas is at the entrance to Stratholme right now and you should be with him! Go!', '0', '0', '1', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0');
-INSERT INTO `npc_text` VALUES ('13474', '1', 'Pet families come in one of three types. Ferocious pets, like cats, can dish out damage but can\'t take it as well. Tenacious pets, like turtles, are more defensive and can occupy an enemy\'s attention while you stay at range. Cunning pets, like spiders, have a mix of offensive and defensive abilities and are particularly useful in Battlegrounds and Arenas.$b$bAs your pet gains more experience, it can learn new talents just like you can, but at a slower rate. If you ever want to change your pet\'s talents, just come back to me.', 'Pet families come in one of three types. Ferocious pets, like cats, can dish out damage but canï¿½t take it as well. Tenacious pets, like turtles, are more defensive and can occupy an enemyï¿½s attention while you stay at range. Cunning pets, like spiders, have a mix of offensive and defensive abilities and are particularly useful in Battlegrounds and Arenas.$b$bAs your pet gains more experience, it can learn new talents just like you can, but at a slower rate. If you ever want to change your petï¿½s talents, just come back to me.', '0', '0', '1', '0', '273', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `npc_text` VALUES ('13474', '1', 'Pet families come in one of three types. Ferocious pets, like cats, can dish out damage but can\'t take it as well. Tenacious pets, like turtles, are more defensive and can occupy an enemy\'s attention while you stay at range. Cunning pets, like spiders, have a mix of offensive and defensive abilities and are particularly useful in Battlegrounds and Arenas.$b$bAs your pet gains more experience, it can learn new talents just like you can, but at a slower rate. If you ever want to change your pet\'s talents, just come back to me.', 'Pet families come in one of three types. Ferocious pets, like cats, can dish out damage but cant take it as well. Tenacious pets, like turtles, are more defensive and can occupy an enemies attention while you stay at range. Cunning pets, like spiders, have a mix of offensive and defensive abilities and are particularly useful in Battlegrounds and Arenas.$b$bAs your pet gains more experience, it can learn new talents just like you can, but at a slower rate. If you ever want to change your pets talents, just come back to me.', '0', '0', '1', '0', '273', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0');
 INSERT INTO `npc_text` VALUES ('13482', '1', 'Here is where I sacrificed everything to free my father. Now I come to destroy it...', '', '0', '0', '1', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0');
 INSERT INTO `npc_text` VALUES ('13485', '1', 'Here is where I sacrificied everything to free my father. Now I come to destroy it...', '', '0', '0', '1', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0');
 INSERT INTO `npc_text` VALUES ('13502', '1', 'Our storehouses have been depleted.  I have nothing to sell until we can get more supplies.', '', '7', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0');

@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:25:23
+Date: 2012-03-29 16:37:00
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -72,8 +72,8 @@ INSERT INTO `weather` VALUES ('440', '25', '16', '0', '0', '0', '0');
 INSERT INTO `weather` VALUES ('490', '40', '2', '20', '4', '5', '1');
 INSERT INTO `weather` VALUES ('618', '40', '2', '20', '4', '5', '1');
 INSERT INTO `weather` VALUES ('1377', '25', '16', '0', '0', '0', '0');
-INSERT INTO `weather` VALUES ('1519', '0', '0', '0', '0', '0', '0');
-INSERT INTO `weather` VALUES ('1637', '0', '0', '0', '0', '0', '0');
+INSERT INTO `weather` VALUES ('1519', '40', '2', '20', '4', '5', '1');
+INSERT INTO `weather` VALUES ('1637', '5', '2', '0', '0', '0', '0');
 INSERT INTO `weather` VALUES ('1638', '40', '2', '20', '4', '5', '1');
 INSERT INTO `weather` VALUES ('1657', '40', '2', '20', '4', '5', '1');
 INSERT INTO `weather` VALUES ('3430', '5', '2', '0', '0', '0', '0');
