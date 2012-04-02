@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:20:32
+Date: 2012-04-02 21:16:20
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,7 +24,7 @@ CREATE TABLE `command_overrides` (
   `access_level` varchar(10) NOT NULL,
   PRIMARY KEY (`command_name`),
   UNIQUE KEY `a` (`command_name`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Commands System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of command_overrides

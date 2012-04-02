@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-29 18:05:26
+Date: 2012-04-02 21:19:41
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,7 +24,7 @@ CREATE TABLE `itempages` (
   `text` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `next_page` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`entry`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Item System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of itempages
@@ -1708,7 +1708,7 @@ INSERT INTO `itempages` VALUES ('3500', '- Fight fire with fire!  Just because a
 INSERT INTO `itempages` VALUES ('3506', 'Entry 1)  First, an introduction.  I am Archmage Vargoth, leader of the first Kirin Tor expedition to Draenor.  We have accompanied Alliance forces through the Dark Portal, and now set up base camp - Kirin\'Var Village - in Farahlon, near the ancestral home of the Laughing Skull clan of orcs.  Such a lovely place!$B', '3507');
 INSERT INTO `itempages` VALUES ('3545', 'Leafing through the book\'s crumbling pages reveals nothing more than descriptions of life on the Valgan farm. The changing of seasons, planting and harvesting of crops are noted, along with the births and deaths of children.$B$BThe entries end abruptly with a short description of the plague. None of the children described could have been old enough to complete training as a knight, if any survived the plague at all.', '0');
 INSERT INTO `itempages` VALUES ('3547', '<It appears Archavon has been keeping a journal. It appears to be written in multiple languages. A tally has been kept on the cover. >$B$BHorde:   $B  Keep Defended: $4024w$B  Keep Captured: $4022w$B$BAlliance:$B  Keep Defended: $4025w$B  Keep Captured: $4023w$B$BDay 10$BThe Makers are gone.  I have been left to watch.$B                -ARCHAVON$B', '3548');
-INSERT INTO `itempages` VALUES ('3548', 'Day 10500: $BThe halls are quiet.  Empty. $B$BI thought the Makers want me to watch the hall, but they never specifically said, Р“С“Р’Р‡Р“вЂљР’С—Р“вЂљР’Р…Archavon, watch the hall... Maybe it\'s okay if I watch outside too?  It would probably be less boring outside.  It\'s decided - I am now responsible for watching the hall AND the outside.  I shall take on my new responsibility next month.$B                -ARCHAVON$B$BDay 20120:$BThe outside is much more open than the hall.  There are convenient cliffs and mountains bordering it.  I\'m now confident that the Makers meant for me to watch this too.  I hope they don\'t notice that I\'ve only been in the hall for the first decade.$B                -ARCHAVON$B', '3549');
+INSERT INTO `itempages` VALUES ('3548', 'Day 10500: $BThe halls are quiet.  Empty. $B$BI thought the Makers want me to watch the hall, but they never specifically said, Ð â€œÐ¡â€œÐ â€™Ð â€¡Ð â€œÐ²Ð‚Ñ™Ð â€™Ð¡â€”Ð â€œÐ²Ð‚Ñ™Ð â€™Ð â€¦Archavon, watch the hall... Maybe it\'s okay if I watch outside too?  It would probably be less boring outside.  It\'s decided - I am now responsible for watching the hall AND the outside.  I shall take on my new responsibility next month.$B                -ARCHAVON$B$BDay 20120:$BThe outside is much more open than the hall.  There are convenient cliffs and mountains bordering it.  I\'m now confident that the Makers meant for me to watch this too.  I hope they don\'t notice that I\'ve only been in the hall for the first decade.$B                -ARCHAVON$B', '3549');
 INSERT INTO `itempages` VALUES ('3549', 'Day 1051213:$BI invented a new game today too, it\'s called \"Kick the Revenant.\"  I made it from the front of the keep to the main road today.  Before next year, I\'m going to try to land it over the river.$B                -ARCHAVON$B$BDay 2145617:$BSome little green people came today.  I have added them to my watching responsibilities.$B                -ARCHAVON$B$BDay 2145657:$BThe little green people have built extra buildings here now.  More buildings seems good.  I think I will speak to them this week and thank them.$B                -ARCHAVON$B$BDay 214566:$BI thanked one of the little green people today for the extra buildings.  He told me that he\'d be bringing more people for me to watch soon - lots of them.$B$BI\'m excited to have more things to watch.$B                -ARCHAVON$B', '3602');
 INSERT INTO `itempages` VALUES ('3569', 'Doctor Kohler,\n\nThe Black Knight has not yet served his purpose. Retrieve his remains from the tournament grounds and use your arts to return him to life. We will use the strength of the crusaders and their followers against them.\n\nTake prisoners and use their souls to empower my servant. Capture Crusader Kul, called reckless by his fellows, and sacrifice him upon your altar. His spirit will imbue the Black Knight with terrible strength and power. Then, deliver the Black Knight to me.', '0');
 INSERT INTO `itempages` VALUES ('3444', 'Why all the trouble? First, Ley Lines don\'t grow on trees. Massive traffic through a Line from all over Azeroth wears down the infrastructure and must be periodically replaced. We charge the mage for every portal via reagent taxes, and encourage mages to pass off these charges to those using the portal. But these taxes don\'t even begin to cover the time cost of replacing a Line, only the materials. $B', '3445');

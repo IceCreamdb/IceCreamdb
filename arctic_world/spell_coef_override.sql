@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:24:39
+Date: 2012-04-02 21:21:57
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,7 +25,7 @@ CREATE TABLE `spell_coef_override` (
   `OTspell_coef_override` float DEFAULT '0',
   `AP_coef_override` float DEFAULT '0',
   `RAP_coef_override` float DEFAULT '0'
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of spell_coef_override

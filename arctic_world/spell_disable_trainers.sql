@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:24:45
+Date: 2012-04-02 21:22:10
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `spell_disable_trainers`;
 CREATE TABLE `spell_disable_trainers` (
   `spellid` int(30) NOT NULL,
   `replacement_spellid` int(30) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Trainer System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of spell_disable_trainers

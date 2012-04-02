@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:24:57
+Date: 2012-04-02 21:22:36
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -23,7 +23,7 @@ CREATE TABLE `spelloverride` (
   `overrideId` int(30) unsigned NOT NULL DEFAULT '0',
   `spellId` int(30) unsigned NOT NULL DEFAULT '0',
   UNIQUE KEY `overrideId` (`overrideId`,`spellId`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Spell System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of spelloverride

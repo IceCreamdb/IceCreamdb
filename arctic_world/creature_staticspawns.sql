@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:21:05
+Date: 2012-04-02 21:17:16
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -45,7 +45,7 @@ CREATE TABLE `creature_staticspawns` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `id` (`id`),
   KEY `a` (`Map`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Spawn System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of creature_staticspawns

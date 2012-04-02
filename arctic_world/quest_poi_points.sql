@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:23:55
+Date: 2012-04-02 21:21:19
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -26,7 +26,7 @@ CREATE TABLE `quest_poi_points` (
   `y` int(10) NOT NULL DEFAULT '0',
   PRIMARY KEY (`questId`,`id`,`x`,`y`),
   KEY `questId_id` (`questId`,`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of quest_poi_points

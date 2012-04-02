@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-29 17:51:33
+Date: 2012-04-02 21:20:20
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -31,7 +31,7 @@ CREATE TABLE `npc_monstersay` (
   `text2` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci,
   `text3` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci,
   `text4` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='NPC System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of npc_monstersay

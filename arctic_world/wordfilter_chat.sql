@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:25:32
+Date: 2012-04-02 21:23:08
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -19,10 +19,10 @@ SET FOREIGN_KEY_CHECKS=0;
 -- Table structure for `wordfilter_chat`
 -- ----------------------------
 DROP TABLE IF EXISTS `wordfilter_chat`;
-CREATE TABLE IF NOT EXISTS `wordfilter_chat` (
+CREATE TABLE `wordfilter_chat` (
   `regex_match` varchar(500) NOT NULL,
   `regex_ignore_if_matched` varchar(500) NOT NULL DEFAULT ''
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of wordfilter_chat

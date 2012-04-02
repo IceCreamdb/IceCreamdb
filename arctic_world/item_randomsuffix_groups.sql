@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:22:18
+Date: 2012-04-02 21:19:32
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,7 +24,7 @@ CREATE TABLE `item_randomsuffix_groups` (
   `randomsuffix_entryid` int(30) NOT NULL,
   `chance` float NOT NULL,
   PRIMARY KEY (`entry_id`,`randomsuffix_entryid`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Item System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of item_randomsuffix_groups

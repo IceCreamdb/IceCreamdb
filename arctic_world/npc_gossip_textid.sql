@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:22:51
+Date: 2012-04-02 21:20:16
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -23,7 +23,7 @@ CREATE TABLE `npc_gossip_textid` (
   `creatureid` int(10) unsigned NOT NULL DEFAULT '0',
   `textid` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`creatureid`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='NPC System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of npc_gossip_textid

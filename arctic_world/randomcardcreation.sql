@@ -55,7 +55,7 @@ CREATE TABLE `randomcardcreation` (
   `ItemId31` int(10) unsigned NOT NULL DEFAULT '0',
   `ItemCount` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`SpellId`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of randomcardcreation

@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-29 18:16:11
+Date: 2012-04-02 21:19:18
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -31,7 +31,7 @@ CREATE TABLE `graveyards` (
   `faction` int(10) unsigned NOT NULL DEFAULT '0',
   `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3002 DEFAULT CHARSET=latin1 COMMENT='Graveyard System';
+) ENGINE=MyISAM AUTO_INCREMENT=3002 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of graveyards

@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:24:49
+Date: 2012-04-02 21:22:13
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -19,7 +19,7 @@ SET FOREIGN_KEY_CHECKS=0;
 -- Table structure for `spell_effects_override`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_effects_override`;
-CREATE TABLE IF NOT EXISTS `spell_effects_override` (
+CREATE TABLE `spell_effects_override` (
   `spellId` int(30) unsigned NOT NULL DEFAULT '0',
   `EffectID` int(30) unsigned NOT NULL,
   `Disable` int(30) unsigned NOT NULL,
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `spell_effects_override` (
   `ImplicitTargetA` int(30) NOT NULL DEFAULT '0',
   `ImplicitTargetB` int(30) NOT NULL DEFAULT '0',
   PRIMARY KEY (`spellId`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of spell_effects_override

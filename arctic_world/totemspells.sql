@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-29 17:17:55
+Date: 2012-04-02 21:22:44
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,7 +25,7 @@ CREATE TABLE `totemspells` (
   `castspell2` int(10) unsigned NOT NULL DEFAULT '0',
   `castspell3` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`spell`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Spell System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of totemspells

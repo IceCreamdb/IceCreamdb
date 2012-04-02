@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-29 18:21:43
+Date: 2012-04-02 21:18:57
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,7 +24,7 @@ CREATE TABLE `gameobject_quest_pickup_binding` (
   `quest` int(11) NOT NULL DEFAULT '0',
   `required_count` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`entry`,`quest`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Quest System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of gameobject_quest_pickup_binding

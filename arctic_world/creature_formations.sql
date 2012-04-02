@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-29 18:34:58
+Date: 2012-04-02 21:16:26
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,7 +25,7 @@ CREATE TABLE `creature_formations` (
   `follow_angle` float NOT NULL DEFAULT '0',
   `follow_dist` float NOT NULL DEFAULT '0',
   PRIMARY KEY (`spawn_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Creature System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of creature_formations

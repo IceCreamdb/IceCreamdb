@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-29 17:33:36
+Date: 2012-04-02 21:21:49
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -28,7 +28,7 @@ CREATE TABLE `reputation_faction_onkill` (
   `change_deltamin_horde` int(30) NOT NULL,
   `change_deltamax_horde` int(30) NOT NULL,
   PRIMARY KEY (`faction_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Creature System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of reputation_faction_onkill

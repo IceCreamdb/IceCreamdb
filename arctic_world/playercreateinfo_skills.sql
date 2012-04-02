@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-29 17:43:18
+Date: 2012-04-02 21:20:57
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,7 +25,7 @@ CREATE TABLE `playercreateinfo_skills` (
   `level` smallint(5) unsigned NOT NULL DEFAULT '0',
   `maxlevel` smallint(5) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`indexid`,`skillid`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Player System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of playercreateinfo_skills
@@ -885,92 +885,3 @@ INSERT INTO `playercreateinfo_skills` VALUES ('60', '673', '1', '1');
 INSERT INTO `playercreateinfo_skills` VALUES ('61', '115', '1', '1');
 INSERT INTO `playercreateinfo_skills` VALUES ('63', '315', '1', '1');
 INSERT INTO `playercreateinfo_skills` VALUES ('65', '137', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('56', '98', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('58', '98', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('59', '98', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('62', '98', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('64', '98', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('58', '111', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('59', '113', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('62', '313', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('64', '759', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('56', '118', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('57', '118', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('58', '118', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('59', '118', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('60', '118', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('61', '118', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('62', '118', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('63', '118', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('64', '118', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('65', '118', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('56', '183', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('57', '183', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('58', '183', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('59', '183', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('60', '183', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('61', '183', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('62', '183', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('63', '183', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('64', '183', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('65', '183', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('56', '413', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('57', '413', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('58', '413', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('59', '413', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('60', '413', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('61', '413', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('62', '413', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('63', '413', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('64', '413', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('65', '413', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('56', '414', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('57', '414', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('58', '414', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('59', '414', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('60', '414', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('61', '414', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('62', '414', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('63', '414', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('64', '414', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('65', '414', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('56', '415', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('57', '415', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('58', '415', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('59', '415', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('60', '415', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('61', '415', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('62', '415', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('63', '415', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('64', '415', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('65', '415', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('56', '293', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('57', '293', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('58', '293', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('59', '293', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('60', '293', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('61', '293', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('62', '293', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('63', '293', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('64', '293', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('65', '293', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('56', '777', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('57', '777', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('58', '777', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('59', '777', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('60', '777', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('61', '777', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('62', '777', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('63', '777', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('64', '777', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('65', '777', '1', '1');
-INSERT INTO `playercreateinfo_skills` VALUES ('56', '754', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('58', '101', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('59', '126', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('62', '753', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('64', '760', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('57', '125', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('60', '220', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('61', '124', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('63', '733', '275', '275');
-INSERT INTO `playercreateinfo_skills` VALUES ('65', '756', '275', '275');

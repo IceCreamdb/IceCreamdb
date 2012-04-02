@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-29 17:44:41
+Date: 2012-04-02 21:20:53
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,7 +25,7 @@ CREATE TABLE `playercreateinfo_items` (
   `slotid` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `amount` tinyint(3) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`indexid`,`protoid`,`slotid`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Player System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of playercreateinfo_items
@@ -553,54 +553,3 @@ INSERT INTO `playercreateinfo_items` VALUES ('63', '38145', '19', '1');
 INSERT INTO `playercreateinfo_items` VALUES ('63', '38145', '20', '1');
 INSERT INTO `playercreateinfo_items` VALUES ('63', '38145', '21', '1');
 INSERT INTO `playercreateinfo_items` VALUES ('63', '38145', '22', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '34652', '0', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '34657', '1', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '34655', '2', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '34650', '4', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '34651', '5', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '34656', '6', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '34648', '7', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '34653', '8', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '34649', '9', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '34659', '14', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '34658', '10', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '41751', '23', '10');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '38147', '11', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '38145', '19', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '38145', '20', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '38145', '21', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('63', '38145', '22', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '34652', '0', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '34657', '1', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '34655', '2', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '34650', '4', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '34651', '5', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '34656', '6', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '34648', '7', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '34653', '8', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '34649', '9', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '34659', '14', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '34658', '10', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '41751', '23', '10');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '38147', '11', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '38145', '19', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '38145', '20', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '38145', '21', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('64', '38145', '22', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '34652', '0', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '34657', '1', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '34655', '2', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '34650', '4', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '34651', '5', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '34656', '6', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '34648', '7', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '34653', '8', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '34649', '9', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '34659', '14', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '34658', '10', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '41751', '23', '10');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '38147', '11', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '38145', '19', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '38145', '20', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '38145', '21', '1');
-INSERT INTO `playercreateinfo_items` VALUES ('65', '38145', '22', '1');

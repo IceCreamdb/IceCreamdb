@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:24:08
+Date: 2012-04-02 21:21:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,7 +25,7 @@ CREATE TABLE `randomitemcreation` (
   `Skill` int(10) unsigned NOT NULL DEFAULT '0',
   `Chance` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`ItemToCreate`,`SpellId`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of randomitemcreation

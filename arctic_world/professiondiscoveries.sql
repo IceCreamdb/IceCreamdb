@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-29 17:40:02
+Date: 2012-04-02 21:21:08
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,7 +25,7 @@ CREATE TABLE `professiondiscoveries` (
   `SkillValue` int(10) unsigned NOT NULL DEFAULT '0',
   `Chance` float NOT NULL DEFAULT '0',
   PRIMARY KEY (`SpellId`,`SpellToDiscover`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of professiondiscoveries

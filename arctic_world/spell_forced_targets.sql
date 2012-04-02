@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:24:52
+Date: 2012-04-02 21:22:15
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -23,7 +23,7 @@ CREATE TABLE `spell_forced_targets` (
   `spellid` int(8) unsigned NOT NULL,
   `target` int(8) unsigned NOT NULL DEFAULT '0',
   UNIQUE KEY `entry_type_target` (`spellid`,`target`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Spell System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of spell_forced_targets

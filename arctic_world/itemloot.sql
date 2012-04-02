@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:22:22
+Date: 2012-04-02 21:19:36
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -28,7 +28,7 @@ CREATE TABLE `itemloot` (
   `maxcount` int(11) unsigned NOT NULL DEFAULT '1',
   `ffa_loot` int(10) unsigned NOT NULL DEFAULT '0',
   KEY `i_gameobj_loot_entry` (`entryid`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Loot System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of itemloot

@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:20:09
+Date: 2012-04-02 21:15:18
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -21,18 +21,18 @@ SET FOREIGN_KEY_CHECKS=0;
 DROP TABLE IF EXISTS `ai_agents`;
 CREATE TABLE `ai_agents` (
   `entry` int(11) unsigned NOT NULL DEFAULT '0',
-  `type` enum('MELEE','RANGED','FLEE','SPELL','CALLFORHELP') NOT NULL DEFAULT 'SPELL',
+  `type` enum('MELEE','RANGED','FLEE','SPELL','CALLFORHELP') CHARACTER SET utf8 NOT NULL DEFAULT 'SPELL',
   `chance` int(11) unsigned NOT NULL DEFAULT '0',
   `maxcount` int(11) unsigned NOT NULL DEFAULT '0',
   `spell` int(11) unsigned NOT NULL DEFAULT '0',
-  `spelltype` enum('ROOT','HEAL','STUN','FEAR','SILENCE','CURSE','AOEDAMAGE','DAMAGE','SUMMON','BUFF','DEBUFF') NOT NULL DEFAULT 'ROOT',
-  `targettype` enum('RANDOMTARGET','TARGETLOCATION','CREATURELOCATION','SELF','OWNER') NOT NULL DEFAULT 'RANDOMTARGET',
+  `spelltype` enum('ROOT','HEAL','STUN','FEAR','SILENCE','CURSE','AOEDAMAGE','DAMAGE','SUMMON','BUFF','DEBUFF') CHARACTER SET utf8 NOT NULL DEFAULT 'ROOT',
+  `targettype` enum('RANDOMTARGET','TARGETLOCATION','CREATURELOCATION','SELF','OWNER') CHARACTER SET utf8 NOT NULL DEFAULT 'RANDOMTARGET',
   `cooldown` int(8) NOT NULL DEFAULT '0',
   `floatMisc1` float NOT NULL DEFAULT '0',
   `Misc2` int(11) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`entry`,`type`,`spell`),
   UNIQUE KEY `a` (`entry`,`spell`,`type`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='AI System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of ai_agents
@@ -3159,3 +3159,5 @@ INSERT INTO `ai_agents` VALUES ('28887', 'SPELL', '0', '0', '52576', 'AOEDAMAGE'
 INSERT INTO `ai_agents` VALUES ('28887', 'SPELL', '0', '0', '52588', 'BUFF', 'SELF', '10000', '0', '0');
 INSERT INTO `ai_agents` VALUES ('27881', 'SPELL', '0', '0', '50025', 'AOEDAMAGE', 'TARGETLOCATION', '2000', '0', '0');
 INSERT INTO `ai_agents` VALUES ('27881', 'SPELL', '0', '0', '50990', 'AOEDAMAGE', 'TARGETLOCATION', '1', '0', '0');
+INSERT INTO `ai_agents` VALUES ('3183', 'SPELL', '100', '0', '172', 'DAMAGE', 'RANDOMTARGET', '1000', '0', '0');
+INSERT INTO `ai_agents` VALUES ('3183', 'SPELL', '100', '0', '348', 'DAMAGE', 'RANDOMTARGET', '1000', '0', '0');

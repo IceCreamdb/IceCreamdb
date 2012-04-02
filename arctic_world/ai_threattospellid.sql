@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:20:13
+Date: 2012-04-02 21:15:26
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,7 +24,7 @@ CREATE TABLE `ai_threattospellid` (
   `mod` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`spell`),
   UNIQUE KEY `a` (`spell`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='AI System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of ai_threattospellid

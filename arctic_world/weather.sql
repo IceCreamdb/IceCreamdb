@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-29 16:37:00
+Date: 2012-04-02 21:23:02
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -28,7 +28,7 @@ CREATE TABLE `weather` (
   `low_chance` int(11) unsigned NOT NULL DEFAULT '0',
   `low_type` int(11) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`zoneId`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Weather System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of weather

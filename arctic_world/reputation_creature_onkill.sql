@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-29 17:35:03
+Date: 2012-04-02 21:21:46
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -26,7 +26,7 @@ CREATE TABLE `reputation_creature_onkill` (
   `change_value` int(30) NOT NULL,
   `rep_limit` int(30) NOT NULL,
   PRIMARY KEY (`creature_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Creature System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of reputation_creature_onkill

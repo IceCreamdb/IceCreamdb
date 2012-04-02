@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:21:23
+Date: 2012-04-02 21:18:19
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,7 +24,7 @@ CREATE TABLE `fishing` (
   `MinSkill` int(11) unsigned DEFAULT NULL,
   `MaxSkill` int(11) unsigned DEFAULT NULL,
   UNIQUE KEY `Zone` (`Zone`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Fishing System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of fishing

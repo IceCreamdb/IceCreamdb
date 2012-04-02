@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:22:15
+Date: 2012-04-02 21:19:27
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -19,12 +19,12 @@ SET FOREIGN_KEY_CHECKS=0;
 -- Table structure for `item_randomprop_groups`
 -- ----------------------------
 DROP TABLE IF EXISTS `item_randomprop_groups`;
-CREATE TABLE IF NOT EXISTS `item_randomprop_groups` (
+CREATE TABLE `item_randomprop_groups` (
   `entry_id` int(30) NOT NULL,
   `randomprops_entryid` int(30) NOT NULL,
   `chance` float NOT NULL,
   PRIMARY KEY (`entry_id`,`randomprops_entryid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Item System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of item_randomprop_groups

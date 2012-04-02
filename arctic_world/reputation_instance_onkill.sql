@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-03-28 21:24:32
+Date: 2012-04-02 21:21:52
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -31,7 +31,7 @@ CREATE TABLE `reputation_instance_onkill` (
   `boss_rep_limit_heroic` int(30) NOT NULL,
   `faction_change_alliance` int(30) NOT NULL,
   `faction_change_horde` int(30) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Creature System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of reputation_instance_onkill
