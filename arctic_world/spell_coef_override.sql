@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:21:57
+Date: 2012-04-04 00:10:50
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -602,15 +602,15 @@ INSERT INTO `spell_coef_override` VALUES ('18937', '0.96', '0', '0', '0');
 INSERT INTO `spell_coef_override` VALUES ('18938', '0.96', '0', '0', '0');
 INSERT INTO `spell_coef_override` VALUES ('27265', '0.96', '0', '0', '0');
 INSERT INTO `spell_coef_override` VALUES ('59092', '0.96', '0', '0', '0');
-INSERT INTO `spell_coef_override` VALUES ('15407', '0', '0.257', '0', '0');
-INSERT INTO `spell_coef_override` VALUES ('17311', '0', '0.257', '0', '0');
-INSERT INTO `spell_coef_override` VALUES ('17312', '0', '0.257', '0', '0');
-INSERT INTO `spell_coef_override` VALUES ('17313', '0', '0.257', '0', '0');
-INSERT INTO `spell_coef_override` VALUES ('17314', '0', '0.257', '0', '0');
-INSERT INTO `spell_coef_override` VALUES ('18807', '0', '0.257', '0', '0');
-INSERT INTO `spell_coef_override` VALUES ('25387', '0', '0.257', '0', '0');
-INSERT INTO `spell_coef_override` VALUES ('48155', '0', '0.257', '0', '0');
-INSERT INTO `spell_coef_override` VALUES ('48156', '0', '0.257', '0', '0');
+INSERT INTO `spell_coef_override` VALUES ('15407', '0.257', '0', '0', '0');
+INSERT INTO `spell_coef_override` VALUES ('17311', '0.257', '0', '0', '0');
+INSERT INTO `spell_coef_override` VALUES ('17312', '0.257', '0', '0', '0');
+INSERT INTO `spell_coef_override` VALUES ('17313', '0.257', '0', '0', '0');
+INSERT INTO `spell_coef_override` VALUES ('17314', '0.257', '0', '0', '0');
+INSERT INTO `spell_coef_override` VALUES ('18807', '0.257', '0', '0', '0');
+INSERT INTO `spell_coef_override` VALUES ('25387', '0.257', '0', '0', '0');
+INSERT INTO `spell_coef_override` VALUES ('48155', '0.257', '0', '0', '0');
+INSERT INTO `spell_coef_override` VALUES ('48156', '0.257', '0', '0', '0');
 INSERT INTO `spell_coef_override` VALUES ('48438', '0', '0.11505', '0', '0');
 INSERT INTO `spell_coef_override` VALUES ('53248', '0', '0.11505', '0', '0');
 INSERT INTO `spell_coef_override` VALUES ('53249', '0', '0.11505', '0', '0');
@@ -850,10 +850,10 @@ INSERT INTO `spell_coef_override` VALUES ('56641', '0', '0', '0', '0.1');
 INSERT INTO `spell_coef_override` VALUES ('34120', '0', '0', '0', '0.1');
 INSERT INTO `spell_coef_override` VALUES ('49051', '0', '0', '0', '0.1');
 INSERT INTO `spell_coef_override` VALUES ('49052', '0', '0', '0', '0.1');
-INSERT INTO `spell_coef_override` VALUES ('53301', '0', '0', '0', '0.16');
-INSERT INTO `spell_coef_override` VALUES ('60051', '0', '0', '0', '0.16');
-INSERT INTO `spell_coef_override` VALUES ('60052', '0', '0', '0', '0.16');
-INSERT INTO `spell_coef_override` VALUES ('60053', '0', '0', '0', '0.16');
+INSERT INTO `spell_coef_override` VALUES ('53301', '0', '0', '0', '0.14');
+INSERT INTO `spell_coef_override` VALUES ('60051', '0', '0', '0', '0.14');
+INSERT INTO `spell_coef_override` VALUES ('60052', '0', '0', '0', '0.14');
+INSERT INTO `spell_coef_override` VALUES ('60053', '0', '0', '0', '0.14');
 INSERT INTO `spell_coef_override` VALUES ('13797', '0', '0', '0', '0.02');
 INSERT INTO `spell_coef_override` VALUES ('14298', '0', '0', '0', '0.02');
 INSERT INTO `spell_coef_override` VALUES ('14299', '0', '0', '0', '0.02');

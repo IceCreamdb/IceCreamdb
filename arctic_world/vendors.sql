@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:22:58
+Date: 2012-04-04 00:00:15
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -34388,9 +34388,9 @@ INSERT INTO `vendors` VALUES ('35580', '48653', '1', '0', '0', '2687');
 INSERT INTO `vendors` VALUES ('35580', '48654', '1', '0', '0', '2686');
 INSERT INTO `vendors` VALUES ('35580', '48655', '1', '0', '0', '2686');
 INSERT INTO `vendors` VALUES ('35580', '48656', '1', '0', '0', '2687');
-INSERT INTO `vendors` VALUES ('35790', '40752', '10', '0', '0', '2589');
-INSERT INTO `vendors` VALUES ('35790', '40753', '10', '0', '0', '2637');
-INSERT INTO `vendors` VALUES ('35790', '45624', '10', '0', '0', '2707');
+INSERT INTO `vendors` VALUES ('35790', '40752', '1', '0', '0', '2589');
+INSERT INTO `vendors` VALUES ('35790', '40753', '1', '0', '0', '2637');
+INSERT INTO `vendors` VALUES ('35790', '45624', '1', '0', '0', '2707');
 INSERT INTO `vendors` VALUES ('35826', '16054', '1', '1', '3600', '0');
 INSERT INTO `vendors` VALUES ('35826', '13311', '1', '1', '3600', '0');
 INSERT INTO `vendors` VALUES ('35826', '10609', '1', '1', '3600', '0');
@@ -34881,7 +34881,7 @@ INSERT INTO `vendors` VALUES ('33929', '40864', '1', '0', '0', '2445');
 INSERT INTO `vendors` VALUES ('33929', '40863', '1', '0', '0', '2445');
 INSERT INTO `vendors` VALUES ('33929', '40862', '1', '0', '0', '2445');
 INSERT INTO `vendors` VALUES ('33929', '40846', '1', '0', '0', '2440');
-INSERT INTO `vendors` VALUES ('35790', '47241', '10', '0', '0', '2743');
+INSERT INTO `vendors` VALUES ('35790', '47241', '1', '0', '0', '2743');
 INSERT INTO `vendors` VALUES ('18756', '51809', '1', '0', '0', '0');
 INSERT INTO `vendors` VALUES ('33939', '51397', '1', '0', '0', '2943');
 INSERT INTO `vendors` VALUES ('33936', '51397', '1', '0', '0', '2943');
@@ -37420,7 +37420,7 @@ INSERT INTO `vendors` VALUES ('38858', '50978', '5', '0', '0', '2740');
 INSERT INTO `vendors` VALUES ('38858', '50976', '5', '0', '0', '2740');
 INSERT INTO `vendors` VALUES ('38858', '50977', '5', '0', '0', '2740');
 INSERT INTO `vendors` VALUES ('38858', '50975', '5', '0', '0', '2742');
-INSERT INTO `vendors` VALUES ('38858', '47241', '5', '0', '0', '2743');
+INSERT INTO `vendors` VALUES ('38858', '47241', '1', '0', '0', '2743');
 INSERT INTO `vendors` VALUES ('38858', '50468', '5', '0', '0', '2741');
 INSERT INTO `vendors` VALUES ('38858', '50356', '5', '0', '0', '2740');
 INSERT INTO `vendors` VALUES ('38858', '50997', '5', '0', '0', '2740');
