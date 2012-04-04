@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:15:48
+Date: 2012-04-04 17:26:15
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,7 +24,7 @@ CREATE TABLE `areatriggers` (
   `type` tinyint(3) unsigned DEFAULT '0',
   `map` int(11) unsigned DEFAULT NULL,
   `screen` int(11) unsigned DEFAULT NULL,
-  `name` varchar(100) DEFAULT '0',
+  `name` varchar(100) COLLATE utf8_unicode_ci DEFAULT '0',
   `position_x` float NOT NULL DEFAULT '0',
   `position_y` float NOT NULL DEFAULT '0',
   `position_z` float NOT NULL DEFAULT '0',

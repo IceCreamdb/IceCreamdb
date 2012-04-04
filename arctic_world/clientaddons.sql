@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:16:13
+Date: 2012-04-04 17:26:07
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -21,7 +21,7 @@ SET FOREIGN_KEY_CHECKS=0;
 DROP TABLE IF EXISTS `clientaddons`;
 CREATE TABLE `clientaddons` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `name` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
   `crc` bigint(20) unsigned DEFAULT NULL,
   `banned` int(10) unsigned NOT NULL DEFAULT '0',
   `showinlist` int(10) unsigned NOT NULL DEFAULT '0',

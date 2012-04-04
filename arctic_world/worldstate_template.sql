@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:23:14
+Date: 2012-04-04 17:19:29
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,7 +25,7 @@ CREATE TABLE `worldstate_template` (
   `faction_mask` int(30) NOT NULL,
   `field_number` int(30) unsigned NOT NULL,
   `initial_value` int(30) NOT NULL,
-  `comment` varchar(200) NOT NULL,
+  `comment` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`field_number`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 

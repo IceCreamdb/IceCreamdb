@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:21:04
+Date: 2012-04-04 17:23:34
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -20,7 +20,7 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `prestartqueries`;
 CREATE TABLE `prestartqueries` (
-  `Query` varchar(1024) NOT NULL,
+  `Query` varchar(1024) COLLATE utf8_unicode_ci NOT NULL,
   `SingleShot` int(1) unsigned NOT NULL DEFAULT '1',
   `Seq` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`Seq`)

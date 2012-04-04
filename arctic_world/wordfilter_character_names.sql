@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:23:05
+Date: 2012-04-04 17:19:45
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -20,8 +20,8 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `wordfilter_character_names`;
 CREATE TABLE `wordfilter_character_names` (
-  `regex_match` varchar(500) NOT NULL,
-  `regex_ignore_if_matched` varchar(500) NOT NULL DEFAULT ''
+  `regex_match` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
+  `regex_ignore_if_matched` varchar(500) COLLATE utf8_unicode_ci NOT NULL DEFAULT ''
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------

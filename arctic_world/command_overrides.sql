@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:16:20
+Date: 2012-04-04 17:26:04
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -20,8 +20,8 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `command_overrides`;
 CREATE TABLE `command_overrides` (
-  `command_name` varchar(100) NOT NULL,
-  `access_level` varchar(10) NOT NULL,
+  `command_name` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `access_level` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`command_name`),
   UNIQUE KEY `a` (`command_name`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

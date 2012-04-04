@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:23:11
+Date: 2012-04-04 17:19:34
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -29,7 +29,7 @@ CREATE TABLE `worldmap_info` (
   `repopy` float DEFAULT '0',
   `repopz` float DEFAULT '0',
   `repopentry` int(10) unsigned DEFAULT '0',
-  `area_name` varchar(100) DEFAULT '0',
+  `area_name` varchar(100) COLLATE utf8_unicode_ci DEFAULT '0',
   `flags` int(10) unsigned NOT NULL DEFAULT '0',
   `cooldown` int(10) unsigned NOT NULL DEFAULT '0',
   `required_quest` int(10) unsigned NOT NULL DEFAULT '0',

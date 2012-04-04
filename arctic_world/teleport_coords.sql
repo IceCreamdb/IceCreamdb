@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:22:39
+Date: 2012-04-04 17:21:52
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -21,7 +21,7 @@ SET FOREIGN_KEY_CHECKS=0;
 DROP TABLE IF EXISTS `teleport_coords`;
 CREATE TABLE `teleport_coords` (
   `entry` int(10) unsigned NOT NULL DEFAULT '0',
-  `name` char(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `name` char(255) COLLATE utf8_unicode_ci NOT NULL,
   `mapId` int(10) unsigned NOT NULL DEFAULT '0',
   `position_x` float NOT NULL DEFAULT '0',
   `position_y` float NOT NULL DEFAULT '0',

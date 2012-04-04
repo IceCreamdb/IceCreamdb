@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:20:20
+Date: 2012-04-04 17:24:12
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,12 +25,12 @@ CREATE TABLE `npc_monstersay` (
   `chance` float NOT NULL DEFAULT '0',
   `language` int(11) unsigned NOT NULL DEFAULT '0',
   `type` int(11) unsigned NOT NULL DEFAULT '0',
-  `monstername` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci,
-  `text0` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci,
-  `text1` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci,
-  `text2` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci,
-  `text3` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci,
-  `text4` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci
+  `monstername` longtext COLLATE utf8_unicode_ci,
+  `text0` longtext COLLATE utf8_unicode_ci,
+  `text1` longtext COLLATE utf8_unicode_ci,
+  `text2` longtext COLLATE utf8_unicode_ci,
+  `text3` longtext COLLATE utf8_unicode_ci,
+  `text4` longtext COLLATE utf8_unicode_ci
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------

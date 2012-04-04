@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:22:46
+Date: 2012-04-04 17:21:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,7 +25,7 @@ CREATE TABLE `trainer_defs` (
   `required_skillvalue` int(11) unsigned DEFAULT '0',
   `req_class` int(11) unsigned NOT NULL DEFAULT '0',
   `trainer_type` int(11) unsigned NOT NULL DEFAULT '0',
-  `trainer_ui_window_message` text,
+  `trainer_ui_window_message` text COLLATE utf8_unicode_ci,
   `can_train_gossip_textid` int(11) NOT NULL,
   `cannot_train_gossip_textid` int(11) NOT NULL,
   PRIMARY KEY (`entry`)

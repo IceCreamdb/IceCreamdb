@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:16:48
+Date: 2012-04-04 17:25:49
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -36,7 +36,7 @@ CREATE TABLE `creature_proto_heroic` (
   `resistance5` int(10) NOT NULL DEFAULT '0',
   `resistance6` int(10) NOT NULL DEFAULT '0',
   `resistance7` int(10) NOT NULL DEFAULT '0',
-  `auras` longtext NOT NULL,
+  `auras` longtext COLLATE utf8_unicode_ci NOT NULL,
   `auraimmune_flag` int(10) NOT NULL DEFAULT '0',
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

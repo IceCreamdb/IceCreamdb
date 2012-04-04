@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-04 17:07:53
+Date: 2012-04-04 17:25:15
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -23,7 +23,7 @@ CREATE TABLE `gameobject_names` (
   `entry` int(10) unsigned NOT NULL DEFAULT '0',
   `Type` int(10) unsigned NOT NULL DEFAULT '0',
   `DisplayID` int(10) unsigned NOT NULL DEFAULT '0',
-  `Name` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `Name` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `spellfocus` int(30) NOT NULL DEFAULT '0',
   `sound1` int(30) unsigned NOT NULL DEFAULT '0',
   `sound2` int(30) NOT NULL DEFAULT '0',

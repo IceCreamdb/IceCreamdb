@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-02 21:19:18
+Date: 2012-04-04 17:24:51
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -29,7 +29,7 @@ CREATE TABLE `graveyards` (
   `adjacentzoneid` int(10) unsigned NOT NULL DEFAULT '0',
   `mapid` int(10) unsigned NOT NULL DEFAULT '0',
   `faction` int(10) unsigned NOT NULL DEFAULT '0',
-  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=3002 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
