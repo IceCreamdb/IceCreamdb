@@ -102,7 +102,7 @@ CREATE TABLE `npc_text` (
   `em7_4` int(10) unsigned NOT NULL DEFAULT '0',
   `em7_5` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`entry`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='NPC System';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of npc_text
