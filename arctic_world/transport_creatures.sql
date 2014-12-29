@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2012-04-04 17:21:28
+Date: 2014-12-29 13:05:44
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -28,6 +28,9 @@ CREATE TABLE `transport_creatures` (
   `orientation` float NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+-- ----------------------------
+-- Records of transport_creatures
+-- ----------------------------
 INSERT INTO `transport_creatures` VALUES ('192241', '30753', '-26.8391', '-10.402', '35.5991', '1.29366');
 INSERT INTO `transport_creatures` VALUES ('192241', '29795', '45.6197', '7.29317', '30.0955', '4.67642');
 INSERT INTO `transport_creatures` VALUES ('192241', '30754', '-54.639', '-15.3254', '34.3972', '3.83128');
@@ -275,6 +278,3 @@ INSERT INTO `transport_creatures` VALUES ('187038', '24911', '29.079', '6.02911'
 INSERT INTO `transport_creatures` VALUES ('187038', '24911', '19.1465', '-9.70741', '14.7601', '4.79434');
 INSERT INTO `transport_creatures` VALUES ('187038', '24911', '5.53691', '-10.9158', '14.0808', '4.59956');
 INSERT INTO `transport_creatures` VALUES ('192242', '31261', '-46.1663', '12.044', '13.2206', '1.43738');
--- ----------------------------
--- Records of transport_creatures
--- ----------------------------
