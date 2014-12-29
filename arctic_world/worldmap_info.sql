@@ -10,13 +10,13 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2014-12-29 13:05:13
+Date: 2014-12-29 22:41:08
 */
 
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for `worldmap_info`
+-- Table structure for worldmap_info
 -- ----------------------------
 DROP TABLE IF EXISTS `worldmap_info`;
 CREATE TABLE `worldmap_info` (
@@ -176,3 +176,9 @@ INSERT INTO `worldmap_info` VALUES ('632', '632', '1', '5', '80', '7033.33', '-4
 INSERT INTO `worldmap_info` VALUES ('658', '658', '1', '5', '80', '839.583', '-693.75', '12.25', '658', 'Pit of Saron', '19', '604800', '0', '0', '0', '0', '800', '0', '1', '0', '0');
 INSERT INTO `worldmap_info` VALUES ('668', '668', '1', '5', '80', '7033.33', '-5566.67', '64.66', '668', 'Halls of Reflection', '19', '604800', '0', '0', '0', '0', '800', '0', '1', '0', '0');
 INSERT INTO `worldmap_info` VALUES ('631', '631', '1', '25', '80', '6366.67', '-8833.33', '5933.33', '631', 'Icecrown Citadel', '19', '604800', '0', '0', '0', '0', '800', '0', '1', '0', '0');
+INSERT INTO `worldmap_info` VALUES ('672', '0', '0', '0', '1', '0', '0', '0', '0', 'Transport: A Airship (ICC Raid)', '0', '0', '0', '0', '0', '0', '80', '0', '1', '0', '0');
+INSERT INTO `worldmap_info` VALUES ('673', '0', '0', '0', '1', '0', '0', '0', '0', 'Transport: H Airship (ICC Raid)', '0', '0', '0', '0', '0', '0', '80', '0', '1', '0', '0');
+INSERT INTO `worldmap_info` VALUES ('712', '0', '0', '0', '1', '0', '0', '0', '0', 'Transport: A Airship (ICC Dungeon)', '0', '0', '0', '0', '0', '0', '80', '0', '1', '0', '0');
+INSERT INTO `worldmap_info` VALUES ('713', '0', '0', '0', '1', '0', '0', '0', '0', 'Transport: H Airship (ICC Dungeon)', '0', '0', '0', '0', '0', '0', '80', '0', '1', '0', '0');
+INSERT INTO `worldmap_info` VALUES ('718', '0', '0', '0', '1', '0', '0', '0', '0', 'Transport: The Mighty Wind (ICC Raid)', '0', '0', '0', '0', '0', '0', '80', '0', '1', '0', '0');
+INSERT INTO `worldmap_info` VALUES ('724', '0', '2', '0', '1', '0', '0', '0', '0', 'ChamberofAspectRed', '0', '0', '0', '0', '0', '0', '80', '0', '1', '0', '0');

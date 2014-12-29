@@ -10,13 +10,13 @@ Target Server Type    : MYSQL
 Target Server Version : 50509
 File Encoding         : 65001
 
-Date: 2014-12-29 19:29:07
+Date: 2014-12-29 22:39:17
 */
 
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for `playercreateinfo`
+-- Table structure for playercreateinfo
 -- ----------------------------
 DROP TABLE IF EXISTS `playercreateinfo`;
 CREATE TABLE `playercreateinfo` (
